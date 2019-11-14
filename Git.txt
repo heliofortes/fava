@@ -1,0 +1,640 @@
+- AVALIAÇÃO SCALPER TRADER, FAZER NO PDF
+- 
+
+usersx
+JXNE8E6cJCUbf9Xh8ELl
+favapp-77d53
+
+avaliacao
+
+colaborador
+
+empresa
+
+equipe
+
+notas
+
+regras
+
+topicos
+
+users
+
+usersx
+
+usersx
+
+JXNE8E6cJCUbf9Xh8ELl
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVA
+$ git clone https://github.com/heliofortes/fava.git
+fatal: destination path 'fava' already exists and is not an empty directory.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVA
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --includes            respect include directives on lookup
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVA
+$ git config -global
+error: did you mean `--global` (with two dashes ?)
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVA
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --includes            respect include directives on lookup
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVA
+$ git config --global  user.name "Helio Fortes"
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVA
+$ git config --global  user.email heliomarques@grupofortes.com.br
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVA
+$ dir
+02\ Semana\ -\ criando_a_base_da_aplicaao_semana_omnistack_90_7gu8S-plpbM_1080p.mp4
+BASHBOARD.png
+ClusterMongoDB.png
+CursosAlura.png
+DatabaseAccess.png
+FAVA
+FireBase.html
+home.html
+index.html
+init.js
+Mongo1.png
+Mongo2.png
+Mongo3.png
+Mongo4.png
+Mongo5.png
+NOTA.txt
+novo.png
+novo2.png
+Projeto
+Sequencia_de_Cursos.png
+TELA_DANDO_NOTA.png
+UserAdmin-facapp.png
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVA
+$ cd
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~
+$ git clone https://github.com/heliofortes/fava.git
+Cloning into 'fava'...
+Username for 'https://github.com': heliofortes
+Password for 'https://heliofortes@github.com':
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~
+$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~
+$ git remote
+fatal: Not a git repository (or any of the parent directories): .git
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~
+$ dir
+Ambiente\ de\ impressão
+Ambiente\ de\ rede
+AppData
+Configurações\ locais
+Contacts
+Cookies
+Dados\ de\ aplicativos
+Desktop
+Documents
+Downloads
+fava
+Favorites
+IntelGraphicsProfiles
+Links
+Menu\ Iniciar
+Meus\ documentos
+Modelos
+Music
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+Oracle
+Pictures
+Recent
+sanct.log
+Saved\ Games
+Searches
+SendTo
+source
+Tracing
+Videos
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~
+$ pwd
+/c/Users/heliomarques
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~
+$ cd fava
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~/fava (master)
+$ pwd
+/c/Users/heliomarques/fava
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~/fava (master)
+$ dir
+LICENSE  README.md
+
+heliomarques@FTS-DEV-AG-13 MINGW64 ~/fava (master)
+$ git clone https://github.com/heliofortes/fava.git
+
+
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp
+$ pwd
+/e/FAVApp
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp
+$ git clone https://github.com/heliofortes/fava.git
+Cloning into 'fava'...
+Username for 'https://github.com': heliofortes
+Password for 'https://heliofortes@github.com':
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp
+$ dir
+02\ Semana\ -\ criando_a_base_da_aplicaao_semana_omnistack_90_7gu8S-plpbM_1080p.mp4
+BASHBOARD.png
+ClusterMongoDB.png
+CursosAlura.png
+DatabaseAccess.png
+fava
+FAVApp
+FireBase.html
+home.html
+index.html
+init.js
+Mongo1.png
+Mongo2.png
+Mongo3.png
+Mongo4.png
+Mongo5.png
+NOTA.txt
+novo.png
+novo2.png
+Projeto
+Sequencia_de_Cursos.png
+TELA_DANDO_NOTA.png
+UserAdmin-facapp.png
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp
+$ git init
+Initialized empty Git repository in E:/FAVApp/.git/
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        02 Semana - criando_a_base_da_aplicaao_semana_omnistack_90_7gu8S-plpbM_1080p.mp4
+        BASHBOARD.png
+        ClusterMongoDB.png
+        CursosAlura.png
+        DatabaseAccess.png
+        FAVApp/
+        FireBase.html
+        Mongo1.png
+        Mongo2.png
+        Mongo3.png
+        Mongo4.png
+        Mongo5.png
+        NOTA.txt
+        Projeto/
+        Sequencia_de_Cursos.png
+        TELA_DANDO_NOTA.png
+        UserAdmin-facapp.png
+        fava/
+        home.html
+        index.html
+        init.js
+        novo.png
+        novo2.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp (master)
+$ pwd
+/e/FAVApp
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp (master)
+$ cd fava
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ pwd
+/e/FAVApp/fava
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ ls
+LICENSE  README.md
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   README.md
+
+no changes added to commit
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git add *.*
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git commit -v "primeiro"
+error: pathspec 'primeiro' did not match any file(s) known to git.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git commit -m "primeiro"
+[master c67e584] primeiro
+ 1 file changed, 1 insertion(+)
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git log
+commit c67e5846ee463ca9ded8184e6c68b5e975eb1a2e
+Author: Helio Fortes <heliomarques@grupofortes.com.br>
+Date:   Thu Nov 14 13:39:05 2019 -0300
+
+    primeiro
+
+commit 32cdce0dffbd487126d2fe358509beb1697ea1af
+Author: Hélio Marques <37803811+heliofortes@users.noreply.github.com>
+Date:   Thu Nov 14 13:12:59 2019 -0300
+
+    Initial commit
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git push origin-master
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: 'origin-master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git commit -m "2"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+        teste.txt
+
+nothing added to commit but untracked files present
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git add *.*
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   teste.txt
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git commit -m "2"
+[master fe923ef] 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 teste.txt
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git remote -v
+origin  https://github.com/heliofortes/fava.git (fetch)
+origin  https://github.com/heliofortes/fava.git (push)
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git pull
+Username for 'https://github.com': heliofortes
+Password for 'https://heliofortes@github.com':
+Already up-to-date.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ ^C
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git config --global push.default matching
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git config --global push.default simple
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git push origin-master
+fatal: 'origin-master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ ^C
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git push origin-master
+fatal: 'origin-master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git push origin-master
+fatal: 'origin-master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git remote -v
+origin  https://github.com/heliofortes/fava.git (fetch)
+origin  https://github.com/heliofortes/fava.git (push)
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git remote rm origin
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git remote -v
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git remote add origin https://github.com/heliofortes/fava.git
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git remote -v
+origin  https://github.com/heliofortes/fava.git (fetch)
+origin  https://github.com/heliofortes/fava.git (push)
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    LICENSE
+        deleted:    README.md
+        deleted:    teste.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git pull
+warning: no common commits
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+From https://github.com/heliofortes/fava
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git pull origin master
+From https://github.com/heliofortes/fava
+ * branch            master     -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Changes to be committed:
+
+        new file:   .gitignore
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both added:      README.md
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    LICENSE
+        modified:   teste.txt
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master|MERGING)
+$ git add *.*
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master|MERGING)
+$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+        new file:   .gitignore
+        modified:   README.md
+        modified:   teste.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    LICENSE
+
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master|MERGING)
+$ git commit -m "1"
+[master 92836f4] 1
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git push origin-master
+fatal: 'origin-master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git push origin master
+Username for 'https://github.com': heliofortes
+Password for 'https://heliofortes@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/heliofortes/fava.git/'
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$ git push origin master
+Username for 'https://github.com': heliofortes
+Password for 'https://heliofortes@github.com':
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (13/13), 1.54 KiB | 0 bytes/s, done.
+Total 13 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/heliofortes/fava.git
+   c7f2d8b..92836f4  master -> master
+
+heliomarques@FTS-DEV-AG-13 MINGW64 /e/FAVApp/fava (master)
+$

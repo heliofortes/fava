@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Teste do Firebase</title>
+    <!-- meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script! -->
+
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-firestore.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyDOfkrpqIviJ5ovW3IM3E4gnoTT_iZr6BE",
+            authDomain: "favapp-77d53.firebaseapp.com",
+            databaseURL: "https://favapp-77d53.firebaseio.com",
+            projectId: "favapp-77d53",
+            storageBucket: "favapp-77d53.appspot.com",
+            messagingSenderId: "965941852783",
+            appId: "1:965941852783:web:bddfed4dc1f40eb12a2b9a",
+            measurementId: "G-Z58N72DP3G"
+        };
+
+        app = firebase.initializeApp(firebaseConfig);
+        db = app.firestore()
+
+        db.collection("empresa").add({
+                codigo: "0001",
+                nome: "Fortes Tecnologia"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("equipe").add({
+                codigo: "0001",
+                nome: "AG Desenvolvimento"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("colaborador").add({
+                codigo: "0001",
+                nome: "Roney Sousa",
+                cargo: "Desenvolvedor",
+                status: "A",
+                equipe: "0001"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("colaborador").add({
+                codigo: "0002",
+                nome: "Hélio Marques",
+                cargo: "Desenvolvedor",
+                status: "A",
+                equipe: "0001"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("topicos").add({
+                codigo: "001",
+                nome: "Conhecimento Técnico",
+                status: "A"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+        db.collection("topicos").add({
+                codigo: "002",
+                nome: "Conhecimento de Neegócio",
+                status: "A"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("topicos").add({
+                codigo: "003",
+                nome: "Inteligência emocional",
+                status: "A"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+        db.collection("topicos").add({
+                codigo: "004",
+                nome: "Compromisso",
+                status: "A"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("avaliacao").add({
+                codigo: "001",
+                data: "14/11/2019",
+                responsavel: "0001",
+                avaliado: "0002"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("notas").add({
+                codigo: "001",
+                avaliacao: "001",
+                topico: "004",
+                nota: "9"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("notas").add({
+                codigo: "001",
+                avaliacao: "001",
+                topico: "001",
+                nota: "10"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+
+        db.collection("regras").add({
+                codigo: "001",
+                nota: "10",
+                status: "P"
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

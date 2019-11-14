@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-analytics.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+
+    <!--link rel='stylesheet' type='text/css' media='screen' href='main.css'-->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDOfkrpqIviJ5ovW3IM3E4gnoTT_iZr6BE",
+            authDomain: "favapp-77d53.firebaseapp.com",
+            databaseURL: "https://favapp-77d53.firebaseio.com",
+            projectId: "favapp-77d53",
+            storageBucket: "",
+            messagingSenderId: "965941852783",
+            appId: "1:965941852783:web:bddfed4dc1f40eb12a2b9a",
+            measurementId: "G-Z58N72DP3G",
+            timnestampInSnapshots: true
+        };
+        // Initialize Firebase
+        app = firebase.initializeApp(firebaseConfig);
+        db = app.firestore();
+
+        db.collection("users").add({
+                first: "Ada",
+                last: "Lovelace",
+                born: 1815
+            })
+            .then(function(docRef) {
+                console.log("Document written with ID: ", docRef.id);
+            })
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
+            });
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

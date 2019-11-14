@@ -1,0 +1,53 @@
+
+< Projeto FAvApp - Fortes Avaliação >
+ -- Hélio Marques Copyright 2019 --
+
+
+Empresa
+ Codigo
+ Nome
+
+Equipe
+ Codigo
+ Nome
+
+Colaborador
+ Codigo
+ Nome
+ Cargo (Desenvolvedor)
+ Status (Ativo/Desativado)
+ Equipe
+
+Topicos de Avaliação
+ Codigo
+ Nome
+ Status
+
+Avaliação
+ Codigo
+ Data
+ Responsavel
+ Avaliado
+
+Avaliação x Topicos x  Avaliadores (notas)
+ Codigo
+ Avaliação
+ Topico
+ Avaliado
+ Nota
+
+Regras
+ Codigo
+ Nota
+ Status (Positivo/Melhorar/Negativo)
+
+
+** Modelo Lógico de Dados
+
+
+MongoDB.Atlas
+heliomarquesheliomarques@grupofortes.com.br
+LXHXIXLXEXO@1X9X
+
+heliomarques@grupofortes.com.br
+LXHXIXLXEXO@1X9X
